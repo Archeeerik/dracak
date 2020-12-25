@@ -18,7 +18,7 @@ intents = discord.Intents(messages = True, guilds = True, reactions = True, memb
 client = commands.Bot(command_prefix = '+', intents = intents)
 client.remove_command("help")
 
-TOKEN = "NzkxNzk5MTQ3NDU0OTIyODI0.X-Uaaw.6fpeDmhWJVYkmJ8LY7dBk5Qy7QU"
+TOKEN = "YOURTOKEN"
 
 @client.event
 async def on_ready():
